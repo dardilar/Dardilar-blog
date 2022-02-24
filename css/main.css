@@ -75,7 +75,7 @@ nav .nav-logo-container {
 
 nav .nav-logo-container img {
     width: 120px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 nav .nav-link-container {
@@ -118,7 +118,7 @@ nav .nav-link-container a:hover {
 .home-main section {
     display: grid;
     grid-column: 2;
-    justify-items: center;
+    justify-items: flex-start;
     height: 350px;
     margin-top: 80px;
 }
@@ -141,11 +141,12 @@ nav .nav-link-container a:hover {
     align-self: flex-start;
     align-items: center;
     border: none;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 .home-main-button:hover {
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+    background-color: rgb(46, 100, 192);
+    box-shadow: 0 10px 10px rgba(12, 20, 92, 0.205);;
 }
 
 .home-main-button a {
