@@ -66,6 +66,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     height: 175px;
+    background-color: #FAFBFC;
 }
 
 nav .nav-logo-container {
@@ -73,8 +74,8 @@ nav .nav-logo-container {
 }
 
 nav .nav-logo-container img {
-    width: 140px;
-    margin-top: 10px;
+    width: 120px;
+    margin-top: 20px;
 }
 
 nav .nav-link-container {
@@ -108,7 +109,7 @@ nav .nav-link-container a:hover {
     display: grid;
     grid-template-columns: 1fr 4fr 1fr;
     height: 100%;
-    background-image: url('../assets/img/pexels-andreea-ch-1166643.jpg');
+    background-image: url('../assets/img/large-bulb.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,4 +131,29 @@ nav .nav-link-container a:hover {
     letter-spacing: 8px;
     color: var(--primary-color);
     text-align: start;
+}
+
+.home-main-button {
+    width: 150px;
+    height: 64px;
+    background-color: var(--primary-color);
+    display: grid;
+    align-self: flex-start;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+}
+
+.home-main-button:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);;
+}
+
+.home-main-button a {
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.home-main-button a:hover {
+    text-decoration: underline;
 }
