@@ -7,6 +7,8 @@
     --large: 2rem;
     --normal: 1.6rem;
     --small: 1.4rem;
+    --extra-large: 2.4rem;
+    --title: 3rem;
 }
 
 * {
@@ -283,4 +285,81 @@ footer p {
     font-size: var(--small);
     color: #FFFFFF;
     margin-top: 20px;
+}
+
+.blogpost-img-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h3 {
+    font-size: var(--extra-large);
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 10px;
+}
+
+.blogpost-main-container article {
+    margin-top: 26px;
+}
+
+.blogpost-main-container article h2 {
+    font-size: var(--title);
+    margin-bottom: 20px;
+}
+
+.blogpost-main-container article p {
+    font-size: var(--large);
+    font-family: 'Inter', sans-serif;
+    line-height: 2.8rem;
+    color: var(--gray);
+}
+
+.contact-main-container {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 250px;
+    background-color: var(--secondary-color);
+    padding-bottom: 50px;
+}
+
+.contact-main-container div {
+    margin-top: 40px;
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.contact-main-container div a {
+    font-size: var(--normal);
+    text-align: initial;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 2px;
+}
+
+.contact-main-container div p {
+    font-size: var(--small);
+    text-align: initial;
+    margin-top: 10px;
+}
+
+.contact-left, .contact-right {
+    margin-top: 85px;
+}
+
+.contact-main-container img {
+    width: 100px;
 }
