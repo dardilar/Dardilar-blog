@@ -138,7 +138,7 @@ nav .nav-link-container a:hover {
 }
 
 .home-main-button {
-    
+    font-family: 'Orbitron', sans-serif;
     width: 150px;
     height: 64px;
     background-color: var(--primary-color);
@@ -166,6 +166,7 @@ nav .nav-link-container a:hover {
 
 .blogs-main {
     display: grid;
+    background-color: #fafbfc;
 }
 
 .blogs-news-container {
