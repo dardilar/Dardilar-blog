@@ -34,6 +34,11 @@ a {
     right: 0;
 }
 
+.grid-container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 header {
     width: 100%;
     height: 235px;
@@ -164,7 +169,8 @@ nav .nav-link-container a:hover {
 }
 
 .blogs-news-container {
-    background-color: var(--ocean-blue);
+    background: rgb(9,30,66);
+    background: linear-gradient(90deg, rgba(9,30,66,1) 0%, rgba(9,30,66,1) 50%, rgba(224,162,31,1) 100%);
     padding: 0 50px 40px;
 }
 
@@ -264,3 +270,16 @@ nav .nav-link-container a:hover {
     margin-bottom: 35px;
 }
 
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: var(--primary-color);
+    border-top: 25px solid #e0a21f;
+    text-align: center;
+}
+
+footer p {
+    font-size: var(--small);
+    color: #FFFFFF;
+    margin-top: 20px;
+}
