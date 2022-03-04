@@ -433,3 +433,51 @@ footer p {
     font-family: 'Inter', sans-serif;
     margin-top: 10px;
 }
+
+.construction-container {
+    background-color: var(--secondary-color);
+    height: 100vh;
+    display: grid;
+    grid-template: repeat(3,1fr) / repeat(2,1fr);
+    justify-items: center;
+}
+
+.construction-container-img {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.construction-container-img img {
+    width: 800px;
+}
+
+.construction-info {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-right: 50px;
+}
+
+.construction-info h1 {
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 60px;
+    color: var(--primary-color);
+}
+
+.construction-info p {
+    font-size: var(--extra-large);
+    color: var(--ocean-blue);
+    margin-bottom: 80px;
+}
+
+.construction-info a {
+    font-size: var(--normal);
+    border: 1px solid var(--ocean-blue);
+    padding: 15px;
+}
+
+.construction-info a:hover {
+    text-decoration: underline;
+    color: #FFFFFF;
+    background-color: var(--ocean-blue);
+}

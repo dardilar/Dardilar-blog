@@ -26,6 +26,10 @@
     .profile-main-container .profile-container {
         display: block;
     }
+
+    .construction-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 600px) {
